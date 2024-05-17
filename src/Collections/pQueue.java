@@ -1,10 +1,8 @@
-package Generics;
+package Collections;
 
 import java.util.Comparator;
 import java.util.PriorityQueue;
-
  class pQueue {
-
      public static void main(String[] args) {
          PriorityQueue<Student> q=new PriorityQueue<Student>(new Comparator<Student>() {
              @Override
@@ -12,18 +10,16 @@ import java.util.PriorityQueue;
                  return o1.getGrade()-o2.getGrade();
              }
          });
-         q.offer(new Student("pranshsant",'A'));
-
-         q.offer(new Student("fureqan",'B'));
-
-         q.offer(new Student("hasan",'c'));
+         q.offer(new Student("prashant",'A'));
+         q.offer(new Student("furqan",'B'));
+         q.offer(new Student("hasan",'B'));
          q.offer(new Student("fh",'A'));
-
          System.out.printf("quuete is %s\n",q);
+         System.out.println(q.poll());
+         System.out.println(q.poll());
+         System.out.println(q.poll());
+         System.out.println(q.poll());
      }
-
-
-
      private static class Student
      {
         private final String name;
@@ -33,7 +29,6 @@ import java.util.PriorityQueue;
              this.name = name;
              this.grade = grade;
          }
-
          public String getName() {
              return name;
          }
@@ -44,10 +39,8 @@ import java.util.PriorityQueue;
 
          @Override
          public String toString() {
-             return "Student{" +
-                     "name='" + name + '\'' +
-                     ", grade=" + grade +
-                     '}';
+             return  name +" " + grade;
+
          }
      }
 }

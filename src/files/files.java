@@ -1,3 +1,5 @@
+package files;
+
 import java.io.FileNotFoundException;
 import java.io.FileReader;
 import java.io.IOException;
@@ -14,9 +16,7 @@ public class files {
             }
         }catch(FileNotFoundException ex){
             System.out.printf("file not found %s",filename);
-        }
-
-        catch(IOException e){
+        } catch(IOException e){
             System.out.println(e.getMessage());
         }
     }

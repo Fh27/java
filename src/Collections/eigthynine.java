@@ -1,4 +1,4 @@
-package Generics;
+package Collections;
 
 public class eigthynine {
 
