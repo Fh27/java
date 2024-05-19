@@ -1,5 +1,4 @@
 package pattterns;
-
 public class incprint {
     public static void main(String[] args) {
         int n=4;
@@ -9,6 +8,7 @@ public class incprint {
                 System.out.print(sum+" ");
                 sum++;
             }
-            System.out.println();}
+            System.out.println();
+}
     }
 }
