@@ -11,6 +11,7 @@ public class testing3 {
         t2.join();
         t3.start();
         t3.join();
-        System.out.println("endded");
+
+        System.out.println("ended");
     }
 }
