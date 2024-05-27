@@ -20,7 +20,6 @@ public class employee {
                 ", sal=" + sal +
                 '}';
     }
-
     public int getSal() {
         return sal;
     }

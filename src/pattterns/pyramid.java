@@ -22,13 +22,10 @@ public class pyramid {
 //        }
 //            System.out.println();
 //        }
-
-
         for (int i = 0; i < n; i++) {
-
+                //spaces
             for (int j = 0; j <n-i-1 ; j++) {
                 System.out.print(" ");
-
             }
             //stars
             char ch='A';

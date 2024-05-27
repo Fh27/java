@@ -12,7 +12,8 @@ public class reversedig {
             newnum=newnum*10+r;
             num=num/10;
         }
-        System.out.println(newnum
-        );
+        System.out.println(newnum);
+//        cout<<newnum;
+
     }
 }

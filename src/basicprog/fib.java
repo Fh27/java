@@ -18,7 +18,7 @@ public class fib {
         int s=1;
  while(f+s<=n){
      int t=f+s;
-     System.out.println(t+ " ");
+     System.out.println(t + " ");
      f=s;
      s=t;
  }
